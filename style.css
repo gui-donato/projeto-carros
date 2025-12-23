@@ -1,0 +1,15 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+.title{
+    background-color: #051d35;
+}
+
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 1,5;
+    color: white;
+}
