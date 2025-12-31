@@ -1,6 +1,9 @@
 body {
  
-    
+  
+ 
+
+
 }
 
 .title {
@@ -19,6 +22,11 @@ h1 {
     line-height: 1, 5;
     color: white;
     
+}
+h2{
+     font-family: "Montserrat-bold", sans-serif;
+     font-size: 3rem;
+     line-height: 1.5;
 }
 h3{
     font-family: "Montserrat-bold";
@@ -55,7 +63,7 @@ p{
 } 
 .img1{
     width:50%;
-     transform: rotate(-25deg); /* Equal to rotateZ(45deg) */
+     transform: rotate(25deg); /* Equal to rotateZ(45deg) */
 }
 .filtros{
     padding: 7% 15%;
@@ -70,4 +78,25 @@ p{
 }
 .icon:hover{
     color:#051d35;
+}
+.testemunhos {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff8872;
+    color: white;
+}
+.hm{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.logo{
+        text-align: center;
+    background-color: #ff8872;
+}
+.lg{
+        text-align: center;
+      width: 3%;
+    border-radius: 100%;
+    margin: 20px;
 }
