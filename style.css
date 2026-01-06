@@ -140,3 +140,39 @@ border: 1px solid rgba(0, 0, 0, 0.096);
          transform: rotate(0deg);
     }
 }
+  
+
+.cta{
+    background-color: #051d35;
+    font-family: "Montserrat-black", sans-serif;
+    text-align: center;
+    font-size: .5rem;
+    line-height: 1, 5;
+    color: white;
+    padding: 5%;
+}
+.rd{
+   background-color: #051d35;
+    font-family: "Montserrat-black", sans-serif;
+    padding: 2%;
+    font-size: 2.5rem;
+    line-height: 1, 5;
+    color: white;
+}
+#um{
+    margin-right: 2%;
+}
+.footer{
+    background-color: white;
+    font-family: "Montserrat-bold";
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1, 5;
+    color: black;
+    padding: 5%;
+
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.575);
+}
