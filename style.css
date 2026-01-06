@@ -58,11 +58,18 @@ p{
   }
 } 
 .img1{
-    width:50%;
-     transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+    width:60%;
+     transform: rotate(-25deg); /* Equal to rotateZ(45deg) */ 
+ 
+    
+    
 }
 .filtros{
+    background-color:white;
     padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    
 }
 .feature-box{
     text-align: center;
@@ -121,3 +128,15 @@ border: 1px solid rgba(0, 0, 0, 0.096);
   color: #fff;
 }
 
+@media (max-width: 991px){
+    h1{
+        text-align: center;
+    }
+    .col-lg-6{
+        text-align:center;
+    }
+    .img1{
+        position: static;
+         transform: rotate(0deg);
+    }
+}
